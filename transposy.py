@@ -85,5 +85,3 @@ class Transposer:
 
         return avoided_the_note
 
-t = Transposer([["A"], ["B"], ["C", "D"]])
-print(t.avoid(["C", "C#"]))
